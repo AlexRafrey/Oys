@@ -1,0 +1,51 @@
+.container{
+	padding-top: 50px;
+	max-width: 850px;
+	margin: 0 auto;
+	font-family: Georgia, serif;
+	color: #332f2f;
+}
+.wrap{ 
+	flex-wrap: wrap;
+	display: flex; 
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.one, .two{
+	max-width: 400px;
+	width: 100%;
+	padding: 10px;
+	background: #e8e8e8;
+	border-radius: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.one-field div, .two-field div{
+	cursor: pointer;
+	user-select: none;
+}
+h2{
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(121, 115, 115, 0.23);
+}
+.two{
+	background: #e6e3df;
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+.one{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.save button{
+	padding: 5px 15px;
+	border: none;
+	border-radius: 15px; 
+	font-size: 16px;
+	cursor: pointer;
+	background: rgba(67, 95, 156, 0.623);
+	transition: .2s;
+	/* margin: 0 auto;
+	display: block */
+}
+.save button:hover{
+	color: aliceblue; 
+}
